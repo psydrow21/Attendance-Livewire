@@ -39,12 +39,14 @@ use Illuminate\Support\Facades\Mail;
 |
 */
 
-Route::get('/', function () {
-    return view('page.dashboard_page');
-})->name('login');
+// Route::get('/', function () {
+//     return view('login');
+// })->name('login');
 
 // Dashboard Page
 Route::controller(PagesController::class)->group(function(){
+    Route::get('/', 'dashboard_page')->name('login');
+
     Route::get('/landing_page', 'landing_page')->name('landing_page');
 
     Route::get('/dashboard_page', 'dashboard_page')->name('dashboard_page');
