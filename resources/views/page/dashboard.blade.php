@@ -5,10 +5,9 @@
 {{-- Apex Chart --}}
 <div class="flex flex-wrap gap-12">
 
-    <livewire:attendance-radial-chart />
+    <livewire:attendance-radial-chart>
 
-    <livewire:attendance-pie-chart />
-
+    <livewire:attendance-pie-chart>
 
 
     <div class="max-w-sm w-full bg-white rounded-lg shadow-sm dark:bg-gray-800 p-4 md:p-6">

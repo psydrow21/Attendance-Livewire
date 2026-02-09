@@ -15,5 +15,3 @@
 <script src="https://cdn.datatables.net/2.3.6/css/dataTables.dataTables.min.css"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/tom-select/dist/js/tom-select.complete.min.js"></script>
-
-<script src="{{ asset('vendor/livewire-datatables/datatables.js') }}"></script>
