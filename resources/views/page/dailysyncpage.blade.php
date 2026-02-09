@@ -1,7 +1,6 @@
 @extends('template')
 
 @section('section')
-
-    @livewire('LocationSyncMonitoring')
+    <livewire:LocationSyncMonitoring>
 
 @endsection

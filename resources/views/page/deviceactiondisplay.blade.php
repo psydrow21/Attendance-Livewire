@@ -2,6 +2,7 @@
 
 @section('section')
 
-    @livewire('DeviceAction')
+
+    <livewire:DeviceAction>
 
 @endsection
