@@ -145,8 +145,6 @@ class PhoenixFormatTable extends Component
             ->orderBy('emp_id')
             ->get();
 
-
-
             if(count($attendance_logs_sql) > 0){
                 foreach($attendance_logs_sql as $att){
                     $type = in_array($att->type,[0,3]) ? 'IN' : 'OUT';
@@ -180,8 +178,6 @@ class PhoenixFormatTable extends Component
         if($this->selected_location){
 
             $new_file = $this->createTextFile();
-
-
 
             $this->dispatch('download_payroll_format',
                 success : 'true',
