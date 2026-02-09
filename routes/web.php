@@ -41,7 +41,7 @@ use Illuminate\Support\Facades\Mail;
 
 Route::get('/', function () {
     return view('page.dashboard_page');
-})->name('dashboard_page');
+})->name('login');
 
 // Dashboard Page
 Route::controller(PagesController::class)->group(function(){
